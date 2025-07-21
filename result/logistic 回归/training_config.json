@@ -1,0 +1,18 @@
+{
+  "holding_days": 35,
+  "window_train": 50,
+  "features": [
+    "rsi_diff",
+    "vol_ratio_1m",
+    "mom_1m_diff",
+    "mom_3m_diff",
+    "cpi_yoy_mom_lag1",
+    "m2_yoy_mom_lag1"
+  ],
+  "optimize_mode": true,
+  "objective": "multi_objective",
+  "total_samples": 1538,
+  "prediction_samples": 1488,
+  "start_date": "20181225",
+  "end_date": "20250430"
+}

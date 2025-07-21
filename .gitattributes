@@ -1,0 +1,28 @@
+# 全局设置：自动处理文本文件行尾符
+* text=auto
+
+# 强制特定文件使用 LF（代码文件）
+*.py text eol=lf
+*.sh text eol=lf
+*.html text eol=lf
+*.css text eol=lf
+*.js text eol=lf
+*.xml text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+
+# 对 IDE 生成的文件使用 LF
+.idea/ text eol=lf
+*.iml text eol=lf
+
+# 二进制文件（禁止转换）
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.pdf binary
+*.zip binary
+*.exe binary
+
+# 敏感文件（不跟踪内容）
+API_key.txt export-ignore
